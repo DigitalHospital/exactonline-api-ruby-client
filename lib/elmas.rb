@@ -41,6 +41,8 @@ require "elmas/resources/transaction"
 require "elmas/resources/transaction_line"
 require "elmas/resources/document"
 require "elmas/resources/document_attachment"
+require "elmas/resources/document_category"
+require "elmas/resources/document_type"
 require "elmas/resources/mailbox"
 require "elmas/resources/vat_code"
 require "elmas/resources/general_journal_entry"
@@ -50,6 +52,7 @@ require "elmas/resources/goods_delivery"
 require "elmas/resources/goods_delivery_line"
 require "elmas/resources/division"
 require "elmas/resources/user"
+require "elmas/resources/webhook_subscription"
 
 module Elmas
   extend Config
